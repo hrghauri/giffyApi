@@ -41,7 +41,7 @@ class App extends Component {
         newGifsData.forEach(gifData => {
           currentGifsData.push(gifData);
         });
-        let newOffset = this.state.offset + 1;
+        let newOffset = this.state.offset + this.state.limit;
         this.setState({
           gifsData: currentGifsData,
           offset: newOffset
