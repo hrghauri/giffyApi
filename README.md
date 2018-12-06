@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Configuration
+
+In App.js, replace api_key with your own api_key
+
 ## Available Scripts
 
 In the project directory, you can run:
